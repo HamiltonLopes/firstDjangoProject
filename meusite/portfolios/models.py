@@ -1,7 +1,7 @@
 # coding: utf-8
 from django.db import models
 
-
+#teste
 # Create your models here.
 
 class DadosPessoais(models.Model):
