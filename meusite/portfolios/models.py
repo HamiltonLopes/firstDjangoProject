@@ -5,6 +5,7 @@ from django.db import models
 # Create your models here.
 
 class DadosPessoais(models.Model):
+
     name = models.CharField(max_length=50, verbose_name='Nome')
     adress = models.CharField(max_length=100, verbose_name='Endereço')
     city = models.CharField(max_length=50, verbose_name='Cidade')
